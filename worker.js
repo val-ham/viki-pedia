@@ -1,6 +1,6 @@
 const net = require("net");
 const fetch = require("node-fetch");
-const concurrentRequests = 20;
+const concurrentRequests = 1;
 
 const server = net.createServer(async (conn) => {
   let result;
